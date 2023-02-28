@@ -311,7 +311,6 @@ exit_handler:
     }
   }
 
-  DEBUG ((DEBUG_ERROR, "%a: Returning %r\n", __FUNCTION__, Status));
   return Status;
 }
 
@@ -431,7 +430,6 @@ BuildAndInstallSmbiosTable (
       ));
   }
 
-  DEBUG ((DEBUG_ERROR, "%a: Returning %r\n", __FUNCTION__, Status));
   return Status;
 }
 
@@ -515,7 +513,6 @@ ProcessSmbiosTables (
       ));
   }
 
-  DEBUG ((DEBUG_ERROR, "%a: Returning %r\n", __FUNCTION__, Status));
   return Status;
 }
 
