@@ -41,7 +41,7 @@ like `malloc()`, `printf()` and `scanf()`.
 Additionally you need an understanding of the I/O components on an IBM-AT compatible
 UEFI platform.
 
-Nowadays C compilers have a lot of non-standard extentions in language, library and so called
+Nowadays C compilers have a lot of non-standard extensions in language, library and so called
 *intrinsic* (called *built-in* in the GNU terminolgy) functions to meet platform and developer requirements. I mean I/O functions like
 `outp()`/`inp()` family. Those functions will be used here.
 
